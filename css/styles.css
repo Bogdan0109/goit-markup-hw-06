@@ -937,11 +937,14 @@ img {
   margin-bottom: 30px;
 }
 
-.modal-check-input:focus + svg {
+.modal-svg {
+  border: #212121;
+}
+
+.modal-check-input:checked + .modal-svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: none;
   background-image: url(../images/icon-check.svg);
   background-origin: border-box;
   border: none;
